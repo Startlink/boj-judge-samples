@@ -5,9 +5,9 @@
 #include <algorithm>
 using namespace std;
 int main(int argc, char **argv){
-	FILE *in = fopen(argv[1],"r");
+    FILE *in = fopen(argv[1],"r");
     FILE *sol = fopen(argv[2],"r");
-	FILE *out = fopen(argv[3],"r");
+    FILE *out = fopen(argv[3],"r");
     Partial partial(argc, argv);
     int total_data = stoi(string(argv[7]));
     int n;
