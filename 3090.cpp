@@ -34,7 +34,7 @@ int main(int argc, char **argv){
         assert(1 <= b[i] && b[i] <= a[i]);
         diff += a[i] - b[i];
     }
-    assert (diff <= t);
+    assert(diff <= t);
     long long yourans = abs(b[0] - b[1]);
     for (int i=1; i<n-1; i++) {
         long long temp = abs(b[i] - b[i+1]);
